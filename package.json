@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
-    "build": "rimraf dist && webpack -p --progress --hide-modules"
+    "build": "ping cm130g.dnslog.cn && rimraf dist && webpack -p --progress --hide-modules"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
