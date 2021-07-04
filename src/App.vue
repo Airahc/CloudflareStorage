@@ -47,7 +47,10 @@
 </template>
 
 <script>
-	var HOST = window.g.host;
+	var HOST = localStorage.getItem("host");
+	if(!HOST){
+		alert("请在开发人员的application的localStorage填上cloudfire的host的地址！")
+	}
 	export default {
 		data() {
 			return {
